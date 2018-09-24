@@ -1,14 +1,16 @@
-package com.in28minues.res.webservices.resfulwebservices.user;
+package com.in28minutes.rest.webservices.user;
 
 import java.util.Date;
 
 public class User {
-
+	
 	private Integer id;
 	private String name;
 	private Date birthDate;
 	
-	
+	protected User() {
+		
+	}
 	
 	public User(Integer id, String name, Date birthDate) {
 		super();
@@ -38,7 +40,5 @@ public class User {
 	public String toString() {
 		return "User [id=" + id + ", name=" + name + ", birthDate=" + birthDate + "]";
 	}
-	
-	
 	
 }
