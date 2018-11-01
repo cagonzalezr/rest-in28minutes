@@ -65,8 +65,8 @@
 			   <configuration>
 			      <hostname>${hostname}</hostname>
 			      <port>9990</port>
-			      <username>cgonzalezr</username>
-			      <password>TomandoRiesgos51</password>
+			      <username>ubuntu</username>
+			      <password>ubuntu123</password>
 			   </configuration>
 			</plugin>
 			
